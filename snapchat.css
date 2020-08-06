@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    line-height: 1.4285em;
+    font-family: 'Graphik', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+
+nav {
+    background: white;
+
+}
+
+nav ul {
+    display: flex;
+    padding-left: 130px;
+    padding-top: 80px;
+
+
+
+}
+
+nav ul img {
+    height: 25px;
+    width: 25px;
+    font-weight: bold;
+}
+
+nav ul li {
+    font-weight: 100;
+    font-size: 14px;
+    list-style: none;
+    margin: 0 9px;
+    font-weight: 400;
+}
+
+
+header {
+    background: yellow;
+    height: 620px;
+
+}
+
+header h1 {
+    padding-top: 70px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+input {
+    border-radius: 20%;
+    padding: 15px;
+
+    margin-top: 50px;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+
+    cursor: pointer;
+    border-color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: sans-serif;
+    width: 160px;
+    height: 45px;
+    border-radius: 40px;
+    background: white;
+    font-weight: 400;
+}
+
+
+
+header div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3px;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 40%;
+}
+
+header div article img {
+    height: 250px;
+    width: 300px;
+
+}
+
+footer {
+    background: black;
+    color: white;
+}
+
+footer ul {
+    display: flex;
+    padding-left: 150px;
+
+}
+
+footer ul li {
+    list-style: none;
+    padding: 15px 0;
+    margin: 0 15px;
+}
+
+.sect div {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 180px;
+    height: 100px;
+    background-color: white;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+.sect div ul li {
+    list-style: none;
+    margin: 2px 0;
+    opacity: 0.5;
+    font-size: small;
+}
+
+#dropmenu {
+    background: white;
+    padding-left: 180px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+select {
+    display: flex;
+    background: white;
+    margin: 5px 0;
+    width: 200px;
+    padding: 5px;
+    opacity: 0.5;
+}
+
+p {
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.5;
+    font-size: small;
+}
+
+#image {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    margin-top: 3px;
+    height: 70px;
+
+}
